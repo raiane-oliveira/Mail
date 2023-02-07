@@ -42,7 +42,7 @@ It does not work for the `Sent` section.
 
 ## 📒 Learnings
 
--   How SPAs work in practice
+-   How SPAs works in practice
 -   API calls using AJAX
 -   How to integrate APIs in the front-end
 -   What the JSON format is and how to handle it
