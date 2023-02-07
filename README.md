@@ -4,6 +4,7 @@ It's a project that simulates an email service where we have account register as
 All the back-end part, coded with Django and Python, were already written by the CS50W course, leaving only the Front-end to the students.
 
 This application uses the Single-Page Application (SPA) concept, where AJAX was used to call the API data, converted to JSON.<br>
+All the style was made with Bootstrap Framework.
 
 ![image](https://user-images.githubusercontent.com/100815627/217364157-07476943-1f1f-40a2-a391-43c1410aa45c.png)
 
