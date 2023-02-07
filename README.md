@@ -15,6 +15,7 @@ All the style was made with Bootstrap Framework.
 -   JavaScript
 -   Python
 -   Django
+-   SQLite
 -   Bootstrap
 -   HTML
 
