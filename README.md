@@ -5,11 +5,11 @@ Toda a parte do back-end, programada com Django e Python, já foi escrita pelo c
 
 ![image](https://user-images.githubusercontent.com/100815627/217364157-07476943-1f1f-40a2-a391-43c1410aa45c.png)
 
-**Vídeo-Demo**: https://www.youtube.com/watch?v=w9A2JlEvHcA
-
 Esta aplicação usa o conceito de Single-Page Application (SPA), onde, em um mesmo arquivo HTML, pude alterar o conteúdo da página de acordo com os dados
 recebidos da API (formatados em JSON) por AJAX. <br>
 Todo o estilo foi feito com o Framework Bootstrap.
+
+**Vídeo-Demo**: https://www.youtube.com/watch?v=w9A2JlEvHcA
 
 ## 🚀 Techs
 
