@@ -26,7 +26,7 @@ Todo o estilo foi feito com o Framework Bootstrap.
 -   `Compose`: o formulário de composição para enviar um e-mail.
 -   `Sent`: todos os e-mails enviados pelo usuário.
 -   `Archive`:  e-mails arquivados do usuário.
--   `Register`, `Login` e `Logout`: todas essas seções foram já escritas e resolvidas pelo curso.
+-   `Register`, `Login` e `Logout`: todas essas seções já foram escritas e resolvidas pelo curso.
 
 ## 🪸 Características
 
