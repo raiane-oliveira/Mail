@@ -3,12 +3,13 @@
 É um projeto do curso CS50's Web Programming with Python and JavaScript que simula um serviço de e-mail onde temos registro de conta bem como login, e podemos enviar, receber, arquivar e responder e-mails.
 Toda a parte do back-end, programada com Django e Python, já foi escrita pelo curso, deixando apenas o Front-end para os alunos.
 
-Esta aplicação usa o conceito de Single-Page Application (SPA), onde AJAX foi usado para chamar os dados da API, formatados em JSON.
-Todo o estilo foi feito com o Framework Bootstrap.
-
 ![image](https://user-images.githubusercontent.com/100815627/217364157-07476943-1f1f-40a2-a391-43c1410aa45c.png)
 
 **Vídeo-Demo**: https://www.youtube.com/watch?v=w9A2JlEvHcA
+
+Esta aplicação usa o conceito de Single-Page Application (SPA), onde, em um mesmo arquivo HTML, pude alterar o conteúdo da página de acordo com os dados
+recebidos da API (formatados em JSON) por AJAX. <br>
+Todo o estilo foi feito com o Framework Bootstrap.
 
 ## 🚀 Techs
 
@@ -28,8 +29,8 @@ Todo o estilo foi feito com o Framework Bootstrap.
 
 ## 🪸 Características
 
--   **Enviar e-mail***: O usuário pode enviar um e-mail preenchendo o formulário na seção "Compose".
-É permitido enviar o mesmo e-mail para vários endereços de e-mail ao mesmo tempo.
+-   **Enviar e-mail***: O usuário pode enviar um e-mail preenchendo o formulário na seção `Compose`.
+É permitido enviar o mesmo e-mail para vários endereços de emails de contas registradas na aplicação ao mesmo tempo.
 Uma requisição POST é feita por JavaScript na mesma página e a seção `inbox` é carregada.
 
 -   **Ver e-mail***: Uma solicitação de GET é feita na mesma página para a API e todos os dados de um e-mail são devolvidos. Depois de clicado, uma solicitação de PUT é feita para atualizar seus dados para email lido. Quando um e-mail é lido, ele muda de cor na seção da caixa de entrada.
