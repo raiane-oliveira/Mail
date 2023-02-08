@@ -1,6 +1,7 @@
 # Mail
 
-É um projeto do curso CS50's Web Programming with Python and JavaScript que simula um serviço de e-mail onde temos registro de conta bem como login, e podemos enviar, receber, arquivar e responder e-mails.
+É um projeto do curso CS50's Web Programming with Python and JavaScript que simula um serviço de e-mail onde, quando registramos uma conta e nos logamos,
+poderemos enviar, receber, arquivar e responder e-mails para outras contas da plataforma.
 Toda a parte do back-end, programada com Django e Python, já foi escrita pelo curso, deixando apenas o Front-end para os alunos.
 
 ![image](https://user-images.githubusercontent.com/100815627/217364157-07476943-1f1f-40a2-a391-43c1410aa45c.png)
