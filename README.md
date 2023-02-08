@@ -1,7 +1,7 @@
 # Mail
 
 It's a project that simulates an email service where we have account register as well as login, and we can send, receive, archive and reply emails.
-All the back-end part, coded with Django and Python, were already written by the CS50W course, leaving only the Front-end to the students.
+All the back-end part, coded with Django and Python, were already written by the CS50's Web Programming with Python and JavaScript course, leaving only the Front-end to the students.
 
 This application uses the Single-Page Application (SPA) concept, where AJAX was used to call the API data, converted to JSON.
 All the style was made with Bootstrap Framework.
