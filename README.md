@@ -1,14 +1,14 @@
 # Mail
 
-It's a project that simulates an email service where we have account register as well as login, and we can send, receive, archive and reply emails.
-All the back-end part, coded with Django and Python, were already written by the CS50's Web Programming with Python and JavaScript course, leaving only the Front-end to the students.
+É um projeto do curso CS50's Web Programming with Python and JavaScript que simula um serviço de e-mail onde temos registro de conta bem como login, e podemos enviar, receber, arquivar e responder e-mails.
+Toda a parte do back-end, programada com Django e Python, já foi escrita pelo curso, deixando apenas o Front-end para os alunos.
 
-This application uses the Single-Page Application (SPA) concept, where AJAX was used to call the API data, converted to JSON.
-All the style was made with Bootstrap Framework.
+Esta aplicação usa o conceito de Single-Page Application (SPA), onde AJAX foi usado para chamar os dados da API, formatados em JSON.
+Todo o estilo foi feito com o Framework Bootstrap.
 
 ![image](https://user-images.githubusercontent.com/100815627/217364157-07476943-1f1f-40a2-a391-43c1410aa45c.png)
 
-**Demo Video**: https://www.youtube.com/watch?v=w9A2JlEvHcA
+**Vídeo-Demo**: https://www.youtube.com/watch?v=w9A2JlEvHcA
 
 ## 🚀 Techs
 
@@ -19,39 +19,38 @@ All the style was made with Bootstrap Framework.
 -   Bootstrap
 -   HTML
 
-## 📩 Website Sections
+## 📩 Seções do site
 
--   `Inbox`: Shows all emails, read or unread, from the user.
--   `Compose`: part of the page with the mail composition form.
--   `Sent`: all sent emails from the user.
--   `Archive`: archive emails from the user.
+-   `Inbox`: Mostra todos os e-mails, lidos ou não lidos, do usuário.
+-   `Compose`: o formulário de composição para enviar um e-mail.
+-   `Sent`: todos os e-mails enviados pelo usuário.
+-   `Archive`:  e-mails arquivados do usuário.
 
-## 🪸 Features
+## 🪸 Características
 
--   **Send email**: The user can send email by filling out the form in the `Compose` section.
-It is allowed to send the same email to multiple email addresses at once.
-A POST request is made by JavaScript on the same page and the mailbox is loaded.
+-   **Enviar e-mail***: O usuário pode enviar um e-mail preenchendo o formulário na seção "Compose".
+É permitido enviar o mesmo e-mail para vários endereços de e-mail ao mesmo tempo.
+Uma requisição POST é feita por JavaScript na mesma página e a seção `inbox` é carregada.
 
--   **View email**: A GET request is made on the same page to the API and all the data of an email is returned. After it's clicked on, a PUT request is made
-to update its data to read. When an email is read, it changes color in the inbox section.
+-   **Ver e-mail***: Uma solicitação de GET é feita na mesma página para a API e todos os dados de um e-mail são devolvidos. Depois de clicado, uma solicitação de PUT é feita para atualizar seus dados para email lido. Quando um e-mail é lido, ele muda de cor na seção da caixa de entrada.
 
--   **Archived and Unarchived**: allows the user to archive or unarchive emails. After that, the user's inbox is loaded. 
-It does not work for the `Sent` section.
+-   **Arquivados e não arquivados**: permite que o usuário arquive ou desarquive e-mails. Depois disso, a caixa de entrada do usuário é carregada. 
+Ela não funciona para a seção 'Sent'.
 
--   **Reply**: the user can reply a mail, where the compose form will be pre-filled with the content and timestamp of the previous mail.
+-   **Resposta**: o usuário pode responder um e-mail, onde o formulário de composição será pré-preenchido com o conteúdo e o timestamp do e-mail anterior.
 
-## 📒 Learnings
+## 📒 Aprendizagem
 
--   How SPAs works in practice
--   API calls using AJAX
--   How to integrate APIs in the front-end
--   What the JSON format is and how to handle it
--   Request GET, POST and PUT
--   Bootstrap classes
--   Creating elements and Attribute manipulation using JS
+-   Como funcionam SPAs na prática
+-   Chamadas API usando AJAX
+-   Como integrar APIs no front-end
+-   O que é o formato JSON e como lidar com ele
+-   Requisições GET, POST e PUT
+-   Bootstrap
+-   Criando elementos HTML e manipulando seus atributos pelo JS
+-   Método JS `append`
 
 ## 🤝 Feedbacks
 
-If you have opinions on how I might improve this application on the Front-end, please send me a message on
-[Linkdin](https://www.linkedin.com/in/raiane-oliveira-dev/) or an <a href="mailto:raiane.oliveira404@gmail.com">email</a>.
-I'll be happy to answer and learn more with you! ;) ❤️
+Se você tiver opiniões em como eu posso melhorar essa aplicação pelo Front-end, por favor me mande uma mensagem pelo [Linkdin](https://www.linkedin.com/in/raiane-oliveira-dev/) ou um <a href="mailto:raiane.oliveira404@gmail.com">e-mail</a>.<br>
+Eu ficarei feliz de responder e aprender mais com você! ;) ❤️
