@@ -54,5 +54,5 @@ Ela não funciona para a seção 'Sent'.
 
 ## 🤝 Feedbacks
 
-Se você tiver opiniões em como eu posso melhorar essa aplicação pelo Front-end, por favor me mande uma mensagem pelo [Linkdin](https://www.linkedin.com/in/raiane-oliveira-dev/) ou um <a href="mailto:raiane.oliveira404@gmail.com">e-mail</a>.<br>
+Se você tiver opiniões em como eu posso melhorar essa aplicação, por favor, me mande uma mensagem pelo [Linkedin](https://www.linkedin.com/in/raiane-oliveira-dev/) ou um <a href="mailto:raiane.oliveira404@gmail.com">e-mail</a>.<br>
 Eu ficarei feliz de responder e aprender mais com você! ;) ❤️
