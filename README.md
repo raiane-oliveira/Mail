@@ -28,7 +28,7 @@ Todo o estilo foi feito com o Framework Bootstrap.
 -   `Archive`:  e-mails arquivados do usuário.
 -   `Register`, `Login` e `Logout`: todas essas seções já foram escritas e resolvidas pelo curso.
 
-## 🪸 Características
+## 🪸 Features
 
 -   **Enviar e-mail***: O usuário pode enviar um e-mail preenchendo o formulário na seção `Compose`.
 É permitido enviar o mesmo e-mail para vários endereços de emails de contas registradas na aplicação ao mesmo tempo.
