@@ -30,11 +30,11 @@ Todo o estilo foi feito com o Framework Bootstrap.
 
 ## 🪸 Features
 
--   **Enviar e-mail***: O usuário pode enviar um e-mail preenchendo o formulário na seção `Compose`.
+-   **Enviar e-mail**: O usuário pode enviar um e-mail preenchendo o formulário na seção `Compose`.
 É permitido enviar o mesmo e-mail para vários endereços de emails de contas registradas na aplicação ao mesmo tempo.
 Uma requisição POST é feita por JavaScript na mesma página e a seção `inbox` é carregada.
 
--   **Ver e-mail***: Uma solicitação de GET é feita na mesma página para a API e todos os dados de um e-mail são devolvidos. Depois de clicado, uma solicitação de PUT é feita para atualizar seus dados para email lido. Quando um e-mail é lido, ele muda de cor na seção da caixa de entrada.
+-   **Ver e-mail**: Uma solicitação de GET é feita na mesma página para a API e todos os dados de um e-mail são devolvidos. Depois de clicado, uma solicitação de PUT é feita para atualizar seus dados para email lido. Quando um e-mail é lido, ele muda de cor na seção da caixa de entrada.
 
 -   **Arquivados e não arquivados**: permite que o usuário arquive ou desarquive e-mails. Depois disso, a caixa de entrada do usuário é carregada. 
 Ela não funciona para a seção 'Sent'.
