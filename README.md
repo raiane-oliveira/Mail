@@ -41,7 +41,7 @@ Ela não funciona para a seção 'Sent'.
 
 -   **Resposta**: o usuário pode responder um e-mail, onde o formulário de composição será pré-preenchido com o conteúdo e o timestamp do e-mail anterior.
 
-## 📒 Aprendizagem
+## 📒 Aprendizados
 
 -   Como funcionam SPAs na prática
 -   Chamadas API usando AJAX
